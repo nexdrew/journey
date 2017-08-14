@@ -16,6 +16,9 @@ import (
 	"github.com/urfave/cli"
 )
 
+// Version will be reset during build
+var Version = "dev"
+
 func main() {
 	app := App()
 	if err := app.Run(os.Args); err != nil {
@@ -26,7 +29,7 @@ func main() {
 func App() *cli.App {
 	app := cli.NewApp()
 	app.Usage = "Migrations and cronjobs for databases"
-	app.Version = "2.0.0"
+	app.Version = Version
 
 	app.Flags = journey.Flags()
 
