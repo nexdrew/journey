@@ -1,6 +1,5 @@
 language: go
 go:
-- 1.7
 - 1.8
 - tip
 
@@ -15,11 +14,11 @@ before_deploy:
 deploy:
   - provider: releases
     api_key:
-      secure: Y47mTXZIluEegpjVn5bhV5wcgxBJqsQ6L40Pjm1beJWPdmflVzEh0iHxYR1RcaWcJW3XEsUwS/r81fpflO9bxYcDtV/zNJTuTK9w48sJZjkh5tLJ9LsDsIjmKk1iNYSLhEW+AaUBLNOYRB2grI17E4lmh1r29n1FDl/vpNehFoEyqnKdx28zh/jLxRIqMGsj2NrjVI5EG/9M/F/gXelsrbuMZHoec/i5bk1QMpawAGabjXNZujbmZVbOzNxlAfDP6Fdxb0C/y6+C2EKIxvT5o5hhIsesgMVgpI/5k3tycprYqA7e9GjqO39XHfHaM0J8TKBNiuQMDV8TNCR4ohBTpVOOM2Kz7/IWBKtTp24o0UCX6/a3QcY5e8xdVCDI2noPm/9g1ORSz//7NJO3sPMSqKsTRiiwBAxhSo1iFYaZ7w9KJGgdWQFVr1OT6cXBGhxO6RGnPQ3R6jbDR7bxk6IcQpjKvRMdBiw+UnBQMq5YxUMD6+jDs6B6hMVXpb5mblCcqybNFJe10V7qSc+OZX5ZQZdQOWxb2XlelNP3yuPV5xU5DBwu7R0tNIahJ/t2EPMtkq0GGoKz0DhnmJeRxYrYOsMxBiY+WkbV8QOUPCwffxC8PPka5eMiCsKAzadtembDUoUR9HOtFzdwI+9wizV9A4WlhQEGrxQTT+fThcb7U4s=
+      secure: ol7WiiJ+MooWAVQF4RjM1GY7AgOrDu9MD0WPU02yfCr9s+OnhIli6kqaFK+NZqYraVUV+j71p4VieaLNoxXcjkmGDBrjaEnXRU6bxaT/lwERCQtGvZjhv40S/FgqqywUOXAUUcle5VNkmorinDzWFcRUU6NScc24+J9Qr1siWIfd6kqLmRkIh2QBqoT4Z1/pFeaxQRsGm1IYLwD/MdEEd6hErMNqQb0S4Cn/tmAYcOai3LwwoIZLrmjLpB2HrTNAOj+3WW37XJicHTEhqbtgibljOzgrmA+oV/qj6H5asIMbqBZQLCEe6H7mYOSOlXLjKugqKCx/VlhVvkQSA8ryCszmrWIkHyBTFFGTHfVYBR8d1EUrItCe/Ef4k1BeE4mmXFY9q3cbCxTvUDkvYJB5LUJyxIQu0e/GQ7oP1HULtQB6LKq+zCu0jLmhSGjtgs+X7f/DomY9gR871D5V76LFrUquUEYhvdsmv9K3srb5jN4r0kPzdPucx++xGxKS8lLsmLuLf3S16kTNpCvElYEJqB6yrAoIZ5kFbYTj9/UWK+0jS4p8sCRK6g0666tLpmkMskDabUUySjPdAikArnHQ5uOVwr7rCRq1mq+ItmMjH0YPIS/yA9N+449/5a14UTZMLwOnIk1gOtRTQ2GqTP3yiwKN6sIHGeea0qComd7i1mU=
     skip_cleanup: true
     on:
       go: 1.8
-      repo: db-journey/journey
+      repo: nexdrew/journey
       tags: true
     file:
       - build/journey.linux-amd64.tar.gz
