@@ -1,5 +1,7 @@
 package main
 
+// _ "github.com/db-journey/sqlite3-driver"
+
 import (
 	"log"
 	"os"
@@ -10,7 +12,6 @@ import (
 	journey "github.com/nexdrew/journey/commands"
 	_ "github.com/db-journey/mysql-driver"
 	_ "github.com/db-journey/postgresql-driver"
-	_ "github.com/db-journey/sqlite3-driver"
 	_ "github.com/nexdrew/cockroachdb-driver"
 	"github.com/urfave/cli"
 )
