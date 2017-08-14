@@ -1,7 +1,7 @@
 # Journey
 
-[![Build Status](https://travis-ci.org/db-journey/journey.svg?branch=master)](https://travis-ci.org/db-journey/journey)
-[![GoDoc](https://godoc.org/github.com/db-journey/journey?status.svg)](https://godoc.org/github.com/db-journey/journey)
+[![Build Status](https://travis-ci.org/nexdrew/journey.svg?branch=master)](https://travis-ci.org/nexdrew/journey)
+[![GoDoc](https://godoc.org/github.com/nexdrew/journey?status.svg)](https://godoc.org/github.com/nexdrew/journey)
 
 Journey is based on the work of @mattes on his tool "migrate": https://github.com/mattes/migrate/
 
@@ -18,7 +18,6 @@ Journey is based on the work of @mattes on his tool "migrate": https://github.co
 
  * [PostgreSQL](https://github.com/db-journey/postgresql-driver)
  * [Cassandra](https://github.com/db-journey/cassandra-driver)
- * [SQLite](https://github.com/db-journey/sqlite3-driver)
  * [MySQL](https://github.com/db-journey/mysql-driver) ([experimental](https://github.com/mattes/migrate/issues/1#issuecomment-58728186))
  * [CockroachDB](https://github.com/nexdrew/cockroachdb-driver)
  * Bash (planned)
