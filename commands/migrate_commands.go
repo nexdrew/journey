@@ -7,7 +7,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/db-journey/migrate"
+	migrate "github.com/nexdrew/dbj-migrate"
 	"github.com/db-journey/migrate/direction"
 	"github.com/db-journey/migrate/file"
 	pipep "github.com/db-journey/migrate/pipe"
